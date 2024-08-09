@@ -1,0 +1,147 @@
+@font-face {
+    font-family: navfont;
+    src: url("font/font.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img/Desktrop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.navtext {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: navfont;
+}
+
+.docs {
+    position: absolute;
+    top: 23px;
+    right: 100px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.app {
+    display: flex;
+    height: 70px;
+    width: 365px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.bsic {
+    background-color: #ffffff9a;
+    backdrop-filter: blur(10px);
+
+}
+
+.icon {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.popio {
+    /* display: flex; */
+    justify-content: center;
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.imgbox img {
+    height: 70px;
+    width: 70px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.down {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 15px;
+}
+
+.btn {
+    height: 30px;
+    background-color: #111;
+    color: #fff;
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+.mb{
+    display: none;
+}
+.ds{
+    display: block;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("img/bmobile.jpeg");
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+    }
+
+    .popio {
+        width: 100%;
+    }
+
+    .docs {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .down{
+        width: 90%;
+    }
+    .ds{
+        display: none;
+    }
+    .mb{
+        display: block;
+    }
+}

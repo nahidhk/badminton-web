@@ -8,7 +8,7 @@
         "sizes": "192x192"
       }
     ],
-    "start_url": "https://gitgub.com/nahidhk",
+    "start_url": "/app.html",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#fff"

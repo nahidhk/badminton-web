@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="manifest" href="/manifest.json">
     <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -24,6 +25,8 @@
         </nav>
     </header>
     <section class="popio">
+<center>
+
         <div class="app bsic">
             <div class="imgbox"><img src="img/logo2.png" alt="Badminton App"></div>
             <div>
@@ -37,16 +40,17 @@
 </div>
         </div>
 <br>
-    <div class="down bsic">
-<div class="btn ds">winwows</div>
-<div class="btn ds">Linux</div>
-<div class="btn ds">Mac</div>
-<div class="btn mb">Android</div>
-<div class="btn mb">Apple</div>
+    <div id="installBtn" class="down bsic">
+<div onclick="apps()" class="btn ds"><i class="bi bi-windows"></i> &nbsp; Windows</div>
+<div class="btn ds"><i class="bi bi-ubuntu"></i> &nbsp;Linux</div>
+<div class="btn ds"><i class="bi bi-apple"></i> &nbsp;Mac</div>
+<div class="btn mb"><i class="bi bi-android2"></i> &nbsp;Android</div>
+<div class="btn mb"><i class="bi bi-apple"></i> &nbsp;Apple</div>
 
     </div>
-
+</center>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>

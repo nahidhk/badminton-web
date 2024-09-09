@@ -41,10 +41,7 @@ body {
     height: 70px;
     width: 365px;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+
 }
 
 .bsic {
@@ -62,7 +59,6 @@ body {
 }
 
 .popio {
-    /* display: flex; */
     justify-content: center;
     height: auto;
     width: auto;
@@ -70,10 +66,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
 }
 
 .imgbox img {
@@ -85,10 +77,6 @@ body {
 
 .down {
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     padding: 15px;
 }
 
@@ -99,10 +87,6 @@ body {
     margin: 10px;
     border: 1px solid #fff;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     padding: 20px;
     text-align: center;
     font-size: 23px;
@@ -119,7 +103,6 @@ body {
         margin: 0;
         padding: 0;
         background-image: url("img/bmobile.jpeg");
-        /* background-repeat: no-repeat; */
         background-size: cover;
     }
 
